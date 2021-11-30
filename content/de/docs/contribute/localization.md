@@ -26,11 +26,11 @@ Alle Lokalisierungsteams müssen sich mit ihren eigenen Ressourcen selbst tragen
 
 Rufe den [ISO 639-1 Standard](https://www.loc.gov/standards/iso639-2/php/code_list.php) auf und finde deinen Zwei-Buchstaben-Ländercode zur Lokalisierung. Zum Beispiel ist der Zwei-Buchstaben-Code für Korea `ko`.
 
-### Duplizieren und klonen des Repositories
+### Duplizieren und Klonen des Repositories
 
-Als erstes [erstells du dir deine eigenes Duplikat](/docs/contribute/new-content/new-content/#fork-the-repo) vom [kubernetes/website] Repository.
+Als erstes [erstellst du dir deine eigenes Duplikat](/docs/contribute/new-content/new-content/#fork-the-repo) vom [kubernetes/website] Repository.
 
-Dann klonst du das Duplikat und `cd` hinein:
+Dann klonst du das Duplikat und wechselst in das geklonte Verzeichnis:
 
 ```shell
 git clone https://github.com/<username>/website
@@ -94,9 +94,9 @@ contentDir = "content/de"
 weight = 3
 ```
 
-Wenn du deinem Block einen Parameter `weight` zuweist, suche den Sprachblock mit dem höchsten Gewicht und addiere  1 zu diesem Wert.
+Wenn du deinem Block einen Parameter `weight` zuweist, suche den Sprachblock mit dem höchsten Gewicht und addiere 1 zu diesem Wert.
 
-Weitere Informationen zu Hugos Multilingualen Support findest du unter "[Multilingual Mode](https://gohugo.io/content-management/multilingual/)" auf in der Hugo Dokumentation.
+Weitere Informationen zu Hugos multilingualem Support findest du unter "[Multilingual Mode](https://gohugo.io/content-management/multilingual/)" auf in der Hugo Dokumentation.
 
 ### Neuen Lokalisierungsordner erstellen
 
